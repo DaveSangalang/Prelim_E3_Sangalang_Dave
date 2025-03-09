@@ -1,0 +1,36 @@
+/* Dark mode */
+.bg-dark {
+  background-color: #121212 !important; /* Darker background for dark mode */
+}
+
+.text-white {
+  color: white !important;
+}
+
+/* Light mode */
+.bg-light {
+  background-color: #f8f9fa !important; /* Lighter background for light mode */
+}
+
+.text-dark {
+  color: black !important;
+}
+
+/* Smooth transition between dark and light modes */
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Navbar Color (Orange) */
+.navbar {
+  background-color: orange !important; /* Orange background for the navbar */
+}
+
+/* Ensure navbar links are readable in light and dark mode */
+.navbar .nav-link {
+  color: white !important; /* White text color for the navbar links */
+}
+
+.navbar .nav-link:hover {
+  color: black !important; /* Darker color on hover */
+}

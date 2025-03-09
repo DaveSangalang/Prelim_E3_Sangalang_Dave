@@ -1,0 +1,51 @@
+/* Profile.css */
+
+/* General container for the profile */
+.profile-container {
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+/* Styling the profile heading */
+.profile-container h1 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* User name display */
+.profile-container h3 {
+  font-size: 1.5em;
+  color: #555;
+  margin-top: 10px;
+}
+
+/* Form styling */
+.profile-container .form-group {
+  margin-top: 20px;
+}
+
+.profile-container .form-control {
+  max-width: 300px;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+/* Profile picture container */
+.profile-container .profile-picture {
+  margin-bottom: 20px;
+}
+
+/* If dark mode is enabled, adjust styles */
+.bg-dark .profile-container {
+  background-color: #333;
+  color: white;
+}
+
+.bg-dark .profile-container h1,
+.bg-dark .profile-container h3 {
+  color: white;
+}
